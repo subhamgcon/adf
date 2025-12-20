@@ -1,0 +1,9 @@
+{
+	"name": "subhadf1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e6bcf461-4720-4f17-9cd3-791d982840d2",
+		"tenantId": "ac34f5dd-8f37-41d9-9ce2-1ad8ee414c81"
+	}
+}
