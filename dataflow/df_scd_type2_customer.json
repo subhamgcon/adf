@@ -83,7 +83,7 @@
 				"     validateSchema: false,",
 				"     limit: 100,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
-				"     query: '\\n',",
+				"     query: 'SELECT *\\nFROM dim_customer\\nWHERE is_current = 1;\\n\\n',",
 				"     format: 'query') ~> srcsql",
 				"srccustomer, srcsql lookup(srccustomer@customer_id == srcsql@customer_id,",
 				"     multiple: false,",
